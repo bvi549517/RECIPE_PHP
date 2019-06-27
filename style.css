@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+body{
+	margin: 0;
+	height: auto;
+	position: relative;
+
+}
+.home{
+	background-image: url('images/background.jpg');
+	/*background-size: cover*/;
+	background-repeat: no-repeat;
+}
+h1{
+	font-size: 30px;
+}
+h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+}
+h3{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+}
+h4{
+	font-size: 14px;
+}
+p{
+	font-size: 12px;
+}
+.clear{
+	clear: both;
+}
+#logo{
+	margin-top: 104px;
+	width: 199px;
+	height: 133px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#login-form{
+	text-align: center;
+}
+#form01{
+	margin-top: 74px;
+	margin-bottom: 23px;
+}
+#form02{
+	margin-bottom: 23px;
+}
+.form{
+	width: 100%;
+	border-radius: 50px;
+	border-top : none;
+	border-left: none;
+	display: block;
+	width: 50%;
+	margin: auto;
+	-webkit-box-shadow: 0 4px 4px 0 #666666;
+box-shadow: 0 4px 4px 0 #666666;
+
+}
+input[type]{
+	font-size: 14px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	
+}
+::-webkit-input-placeholder{
+  color: #D4D4D4;
+}
+#button01{
+	width: 55%;
+	height: 46px;
+	border-radius: 50px;
+	border-top : none;
+	border-left: none;
+	background-color: #5EE08A;
+	color: #ffffff;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	-webkit-box-shadow: 0 4px 4px 0 #666666;
+box-shadow: 0 4px 4px 0 #666666;
+}
+
+#header{
+	margin: 18px 5.9% 0 5.9%;
+	height: 30px;
+	border-bottom: 1px solid #F6F6F6;
+
+}
+
+#menu div{
+	float: left;
+}
+#browse{
+	margin: 0 9.4% 0 0;
+	width: 23%;
+}
+}
+
+#trending{
+	margin: 0;
+	width: 23%;
+}
+
+#saved{
+	margin-left: 9.4%;
+	width: 23%;
+}
+
+#browse > h2{
+	color: #7C7F7D;
+}
+
+#trending, #saved, #browse02 >h2 {
+	color: #E4E9E5;
+}
+
+#menu-lines{
+	position: absolute;
+	float: right;
+	right: 5.9%;
+}
+
+.bar1, .bar2 {
+  width: 30px;
+  height: 4px;
+  background-color: #5EE08A;
+  transition: 0.4s;
+}
+.bar1{
+	margin-bottom:6px;
+	margin-right: 0;
+	margin-left: 0;
+}
+.bar2{
+	margin: 6px 0;
+}
+
+
+#menu > div{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+
+}
+
+.maincontainer{
+	margin: 23px 5.9% 0 5.9%;
+	border-bottom: 1px solid #F6F6F6;
+
+}
+.maincontainer02{
+	margin: 23px 5.9% 0 5.9%;
+	
+}
+#upload{
+	text-align: center;
+}
+.containers{
+	background-color: #FCFCFC;
+	-webkit-box-shadow: 0 4px 4px 0 #666666;
+box-shadow: 0 4px 4px 0 #666666;
+	height: 143px;
+	margin-bottom: 28px;
+	position: relative;
+}
+.container-left{
+	width: 35.1%;
+	height: 143px;
+	float: left;
+	overflow: hidden;
+}
+.exImg{
+	margin-left: -50%;
+    height: 100%;
+}
+.container-right{
+	margin-left: 4.6%;
+	width: 60%;
+	float: left;
+	
+}
+.name-size{
+	margin: 13px 0 13px 0;
+}
+#food-link{
+	text-decoration: none;
+}
+.food-name{
+	font-size: 18px;
+	color: #6F7170;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+}
+.description-width{
+	width: 82%;
+	margin-bottom: 13px;
+	overflow: visible;
+}
+.description{
+	line-height: 1.2;
+	font-size: 12px;
+	color: #E1DFDF;
+	font-family: 'Poppins', sans-serif;
+
+}
+.updateDate{
+	float: left;
+	width: 63%;
+	position: absolute;
+	bottom: 5px;
+}
+.fav{
+	margin-right: 4.6%;
+	float: right;
+	position: absolute;
+	bottom: 0;
+	right:0;
+}
+.date{
+	font-size: 12px;
+	color: #73E499;
+	font-family: 'Poppins', sans-serif;
+}
+#add{
+	text-align: center;
+	margin: 25px 0 25px 0;
+}
+.second{
+	height: 667px;
+}
+.third{
+	height: 667px;
+}
+#foods{
+	font-size: 30px;
+}
+#cooking-time{
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	color: #B2B1B1;
+	margin-bottom: 5px;
+}
+
+#howTo{
+	margin-top: 10px;
+}
+.direction {
+	font-size: 14px;
+	color:#000000;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+
+}
+#recipe{
+	color: #B2B1B1;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.2
+}
+
+.maincontainer02{
+	margin: 23px 5.9% 0 5.9%;
+}
+.maincontainer03{
+	margin: 0 5.9%;
+}
+#center{
+	margin-top: 15px;
+	text-align: center;
+}
+#button02{
+	width: 55%;
+	height: 35px;
+	border-radius: 50px;
+	border-top : none;
+	border-left: none;
+	background-color: #5EE08A;
+	color: #ffffff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	-webkit-box-shadow: 0 4px 4px 0 #666666;
+box-shadow: 0 4px 4px 0 #666666;
+}
+
+#button03{
+	width: 55%;
+	height: 35px;
+	border-radius: 50px;
+	border-top : none;
+	border-left: none;
+	background-color:  #E05E73;
+	color: #ffffff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	-webkit-box-shadow: 0 4px 4px 0 #666666;
+box-shadow: 0 4px 4px 0 #666666;
+}
+
+
+
+#main-image{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.item{
+	/*color: #7C7F7D;*/
+	font-size: 20px;
+}
+#form-items{
+	text-align: center;
+	border: 2px solid #5EE08A ;
+	color: #7C7F7D;
+}
+input[type="text"]{
+	border: 1px solid #5EE08A;
+}
+
+#form-items > input[type="file"]:nth-child(4){
+	width: 60%;
+	color: #7C7F7D;
+}
+#success{
+	text-align: center;
+	font-size: 40px;
+	color: #7C7F7D;
+}
+
+@media screen and (min-width: 600px){
+
+#recipe{
+	font-size: 30px;
+}
+#foods{
+	font-size: 40px;
+}
+.exImg{
+	margin-left: 0;
+}
+.containers{
+	height: 220px;
+}
+.container-left{
+	height: 220px;
+}
+.food-name{
+	font-size: 35px;
+}
+.description{
+	font-size: 20px;
+}
+.date{
+	font-size: 20px;
+}
+
+#heart{
+	width: 40px;
+}
+#header{
+	height: 60px;
+}
+#browse, #trending, #saved{
+	font-size: 35px;
+}
+#button02 {
+    height: 60px;
+    font-size: 36px;
+}
+
+#cooking-time {
+    font-size: 30px;
+}
+.bar1 {
+    margin-bottom: 12px;
+}
+.bar1, .bar2 {
+    width: 50px;
+    height: 7px;
+}
+
+#menu-lines {
+    margin-top: 4px;
+}
+.home{
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#logo {
+    margin-left: auto;
+    width: 388px;
+    height: 266px;
+    
+    margin-right: auto;
+}
+#logo > img{
+	width: 388px;
+	height: 266px;
+}
+.form{
+	height: 92px !important;
+}
+#button01{
+	height: 92px;
+	font-size: 30px;
+}
+
+#form01, #form02{
+	margin-bottom: 46px;
+}
+input[type] {
+    font-size: 30px;
+}
+#add > a > img{
+    width: 80px;
+    height: 80px;
+}
+}
